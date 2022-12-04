@@ -1,3 +1,8 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+*.png
+build/
+data/
+*.pth
+logs/
+.vscode/
+__pycache__/
+result/
