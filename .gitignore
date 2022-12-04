@@ -1,0 +1,8 @@
+*.png
+build/
+data/
+*.pth
+logs/
+.vscode/
+__pycache__/
+result/
