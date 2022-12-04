@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0", // 定义这个配置文件的版本，默认是0.2.0，生成的时候
+    "configurations": [ // 配置域
+        {
+            "name": "Python3", // 配置文件的名字
+            "type": "python",  // 调试的类型
+            "request": "launch",  // 配置文件的请求类型，有launch和attach两种，具体看官方文档
+            "program": "${file}",
+            "stopOnEntry": false, // break immediately when the program launches
+            "python": "C:/ProgramData/Anaconda3/python.exe",
+            // "cwd": " C:/Users/oywt/Project/YOLOX/tools", // current working directory for finding dependencies and other files
+            "env": {}, // environment variables 
+            "envFile": "${workspaceFolder}/.env", // path to dotenv file with environment variables
+            "justMyCode": false,
+            "debugOptions":[
+                "RedirectOutput"
+            ]
+        }
+    ]
+}
